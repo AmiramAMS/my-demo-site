@@ -1,0 +1,14 @@
+name: My First Website Workflow
+
+on: push
+
+jobs:
+  website-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print start message
+        run: echo "GitHub Actions is running for my website"
+
+      - name: Show current folder files
+        run: ls
