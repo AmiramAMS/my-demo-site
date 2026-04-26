@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name : step0 - chekout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name : step1 - print site name
         run: echo "site name is $SITE_NAME"
       - name : step2 - print owner name
